@@ -1,0 +1,25 @@
+{
+  "_class_name": "CogVideoXImageToVideoPipeline",
+  "_diffusers_version": "0.31.0",
+  "_name_or_path": "THUDM/CogVideoX-5b-I2V",
+  "scheduler": [
+    "diffusers",
+    "CogVideoXDDIMScheduler"
+  ],
+  "text_encoder": [
+    "transformers",
+    "T5EncoderModel"
+  ],
+  "tokenizer": [
+    "transformers",
+    "T5Tokenizer"
+  ],
+  "transformer": [
+    "diffusers",
+    "CogVideoXTransformer3DModel"
+  ],
+  "vae": [
+    "diffusers",
+    "AutoencoderKLCogVideoX"
+  ]
+}
